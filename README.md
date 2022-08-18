@@ -21,7 +21,7 @@ Routes `/products`, `/orders` and `/users`. Below is a table of supported operat
 2. Test sorting, by way like `http://localhost:3000/users?sortOrder=ASC&sortKey=firstName`. You can sort an any resource response using query parameters sortOrder and sortKey.
 3. Test status code for REST API (200,400 and so on).
 4. Test response time.
-5. Test response thanks to json schema validation.
+5. Test response thanks to json schema validation (optional).
 5. Try to follow `AAA` approach (arrange, act, assert). 
 
 # Testing tools
